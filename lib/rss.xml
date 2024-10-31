@@ -1,4 +1,24 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jsim]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jsim</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 30 Oct 2024 06:58:11 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 30 Oct 2024 06:58:11 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[k8s]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jsim]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jsim</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 31 Oct 2024 03:12:11 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 31 Oct 2024 03:12:11 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[github Action queue stuck]]></title><description><![CDATA[ 
+ <br>
+<br>github Action queue 에서 오랫동안 stuck 되어 있을 때
+<br>git commit --amend --no-edit
+
+git push --force-with-lease
+Copy<br>
+<br>git commit --amend --no-edit
+
+<br>--amend : 마지막 커밋을 수정
+<br>--no-edit 커밋 메시지를 수정하지 않고 그대로 사용
+
+
+<br>git push --force-with-lease
+
+<br>수정된 커밋을 원격 저장소에 강제로 푸시
+<br>--force-with-lease는 일반 --force보다 안전한 옵션
+<br>다른 사람이 원격 저장소에 새로운 커밋을 푸시하지 않았을 때만 강제 푸시를 허용
+
+
+<br> <a data-tooltip-position="top" aria-label="https://github.com/orgs/community/discussions/55538" rel="noopener nofollow" class="external-link" href="https://github.com/orgs/community/discussions/55538" target="_blank">참고</a>]]></description><link>git\github-action-queue-stuck.html</link><guid isPermaLink="false">git/github Action queue stuck.md</guid><pubDate>Wed, 30 Oct 2024 09:02:39 GMT</pubDate></item><item><title><![CDATA[k8s]]></title><description><![CDATA[ 
  <br><a data-href="k8s job 완료 후 자동 삭제" href="k8s\k8s-job-완료-후-자동-삭제.html" class="internal-link" target="_self" rel="noopener nofollow">k8s job 완료 후 자동 삭제</a>]]></description><link>k8s\k8s.html</link><guid isPermaLink="false">k8s/k8s.md</guid><pubDate>Wed, 30 Oct 2024 06:57:48 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
  <br><a data-href="k8s" href="k8s\k8s.html" class="internal-link" target="_self" rel="noopener nofollow">k8s</a><br>
 <a data-href="k9s" href="k9s\k9s.html" class="internal-link" target="_self" rel="noopener nofollow">k9s</a><br>
