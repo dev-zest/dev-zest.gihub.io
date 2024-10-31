@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jsim]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://dev-zest.github.io/</link><image><url>https://dev-zest.github.io/lib/media/favicon.png</url><title>jsim</title><link>https://dev-zest.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 31 Oct 2024 06:57:40 GMT</lastBuildDate><atom:link href="https://dev-zest.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 31 Oct 2024 06:57:39 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[소프트웨어 기술력이 뭘까]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jsim]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://dev-zest.github.io/</link><image><url>https://dev-zest.github.io/lib/media/favicon.png</url><title>jsim</title><link>https://dev-zest.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 31 Oct 2024 07:25:36 GMT</lastBuildDate><atom:link href="https://dev-zest.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 31 Oct 2024 07:25:35 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[소프트웨어 기술력이 뭘까]]></title><description><![CDATA[ 
  <br>소프트웨어 기술력에 대해 체계적으로 생각해보겠습니다.<br>소프트웨어 기술력이란 크게 다음과 같은 요소들로 구성된다고 볼 수 있습니다:<br>
 <br>핵심 개발 역량
 <br>
@@ -53,12 +53,12 @@ Copy<br>
 <br>다른 사람이 원격 저장소에 새로운 커밋을 푸시하지 않았을 때만 강제 푸시를 허용
 
 
-<br> <a data-tooltip-position="top" aria-label="https://github.com/orgs/community/discussions/55538" rel="noopener nofollow" class="external-link" href="https://github.com/orgs/community/discussions/55538" target="_blank">참고</a>]]></description><link>https://dev-zest.github.io/git/github-action-queue-stuck.html</link><guid isPermaLink="false">git/github Action queue stuck.md</guid><pubDate>Wed, 30 Oct 2024 09:02:39 GMT</pubDate></item><item><title><![CDATA[local branch 정리]]></title><description><![CDATA[ 
+<br> <a data-tooltip-position="top" aria-label="https://github.com/orgs/community/discussions/55538" rel="noopener nofollow" class="external-link" href="https://github.com/orgs/community/discussions/55538" target="_blank">참고</a>]]></description><link>https://dev-zest.github.io/git/github-action-queue-stuck.html</link><guid isPermaLink="false">git/github Action queue stuck.md</guid><pubDate>Thu, 31 Oct 2024 07:13:08 GMT</pubDate></item><item><title><![CDATA[local branch 정리]]></title><description><![CDATA[ 
  <br>git remote prune origin 
 Copy<br> git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -D  
 Copy<br>
 <br>--vv 에서 -vv 로 변경됨
-]]></description><link>https://dev-zest.github.io/git/local-branch-정리.html</link><guid isPermaLink="false">git/local branch 정리.md</guid><pubDate>Tue, 29 Oct 2024 01:44:39 GMT</pubDate></item><item><title><![CDATA[k8s]]></title><description><![CDATA[ 
+]]></description><link>https://dev-zest.github.io/git/local-branch-정리.html</link><guid isPermaLink="false">git/local branch 정리.md</guid><pubDate>Thu, 31 Oct 2024 07:13:15 GMT</pubDate></item><item><title><![CDATA[k8s]]></title><description><![CDATA[ 
  <br><a data-href="k8s job 완료 후 자동 삭제" href="https://dev-zest.github.io/k8s/k8s-job-완료-후-자동-삭제.html" class="internal-link" target="_self" rel="noopener nofollow">k8s job 완료 후 자동 삭제</a>]]></description><link>https://dev-zest.github.io/k8s/k8s.html</link><guid isPermaLink="false">k8s/k8s.md</guid><pubDate>Wed, 30 Oct 2024 06:57:48 GMT</pubDate></item><item><title><![CDATA[k8s job 완료 후 자동 삭제]]></title><description><![CDATA[ 
  <br>ttlSecondsAfterFinished: 100 # Job 완료 후 100초 후에 자동 삭제<br>apiVersion: batch/v1
 kind: Job
@@ -75,16 +75,16 @@ spec:
       restartPolicy: Never
 Copy<br><img alt="Pasted image 20241030155359.png" src="https://dev-zest.github.io/k8s/images/pasted-image-20241030155359.png"><br>
 AGE 108 초 이후<br>
-<img alt="Pasted image 20241030155526.png" src="https://dev-zest.github.io/k8s/images/pasted-image-20241030155526.png">]]></description><link>https://dev-zest.github.io/k8s/k8s-job-완료-후-자동-삭제.html</link><guid isPermaLink="false">k8s/k8s job 완료 후 자동 삭제.md</guid><pubDate>Wed, 30 Oct 2024 06:55:27 GMT</pubDate><enclosure url="https://dev-zest.github.io/k8s/images/pasted-image-20241030155359.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://dev-zest.github.io/k8s/images/pasted-image-20241030155359.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[k9s]]></title><description><![CDATA[ 
+<img alt="Pasted image 20241030155526.png" src="https://dev-zest.github.io/k8s/images/pasted-image-20241030155526.png">]]></description><link>https://dev-zest.github.io/k8s/k8s-job-완료-후-자동-삭제.html</link><guid isPermaLink="false">k8s/k8s job 완료 후 자동 삭제.md</guid><pubDate>Thu, 31 Oct 2024 07:12:55 GMT</pubDate><enclosure url="https://dev-zest.github.io/k8s/images/pasted-image-20241030155359.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://dev-zest.github.io/k8s/images/pasted-image-20241030155359.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[k9s]]></title><description><![CDATA[ 
  <br><a data-tooltip-position="top" aria-label="https://k9scli.io/" rel="noopener nofollow" class="external-link" href="https://k9scli.io/" target="_blank">K9s</a> is a terminal based UI to interact with your Kubernetes clusters.<br>
 Kubernetes 클러스터와 상호 작용하는 터미널 기반 UI<br>
 <a data-href="k9s binary 직접 다운로드" href="https://dev-zest.github.io/k9s/k9s-binary-직접-다운로드.html" class="internal-link" target="_self" rel="noopener nofollow">k9s binary 직접 다운로드</a>]]></description><link>https://dev-zest.github.io/k9s/k9s.html</link><guid isPermaLink="false">k9s/k9s.md</guid><pubDate>Mon, 28 Oct 2024 11:19:41 GMT</pubDate></item><item><title><![CDATA[k9s binary 직접 다운로드]]></title><description><![CDATA[ 
  <br><br>curl -sS https://webinstall.dev/k9s | bash
 Copy<br><br>echo 'export PATH=$HOME/.local/bin:$PATH' &gt;&gt; ~/.bashrc &amp;&amp; source ~/.bashrc`
-Copy]]></description><link>https://dev-zest.github.io/k9s/k9s-binary-직접-다운로드.html</link><guid isPermaLink="false">k9s/k9s binary 직접 다운로드.md</guid><pubDate>Mon, 28 Oct 2024 05:44:03 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
+Copy]]></description><link>https://dev-zest.github.io/k9s/k9s-binary-직접-다운로드.html</link><guid isPermaLink="false">k9s/k9s binary 직접 다운로드.md</guid><pubDate>Thu, 31 Oct 2024 07:12:36 GMT</pubDate></item><item><title><![CDATA[Recent Post]]></title><description><![CDATA[ 
  <br>
 <br><a data-href="k8s" href="https://dev-zest.github.io/k8s/k8s.html" class="internal-link" target="_self" rel="noopener nofollow">k8s</a>
 <br><a data-href="k9s" href="https://dev-zest.github.io/k9s/k9s.html" class="internal-link" target="_self" rel="noopener nofollow">k9s</a>
 <br><a data-href="git" href="https://dev-zest.github.io/git/git.html" class="internal-link" target="_self" rel="noopener nofollow">git</a>
 <br><a data-href="ai" href="https://dev-zest.github.io/ai/ai.html" class="internal-link" target="_self" rel="noopener nofollow">ai</a>
-]]></description><link>https://dev-zest.github.io/index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Thu, 31 Oct 2024 04:48:11 GMT</pubDate></item></channel></rss>
+<br><br>]]></description><link>https://dev-zest.github.io/index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Thu, 31 Oct 2024 07:25:23 GMT</pubDate></item></channel></rss>
