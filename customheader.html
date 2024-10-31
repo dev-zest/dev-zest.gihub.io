@@ -108,12 +108,12 @@
         }
         container.querySelectorAll("a.tag").forEach((t) => { t.style = ""; t.parentElement.before(t) });
         container.querySelectorAll("img").forEach((el) => el.remove());
-        container.querySelectorAll("[src]").forEach(el => el.src = el.src.replace("https://hi-jin.github.io", ""));
-        container.querySelectorAll("[href]").forEach(el => el.href = el.href.replace("https://hi-jin.github.io", ""));
+        container.querySelectorAll("[src]").forEach(el => el.src = el.src.replace("https://dev-zest.github.io", ""));
+        container.querySelectorAll("[href]").forEach(el => el.href = el.href.replace("https://dev-zest.github.io", ""));
         container.querySelectorAll("br:first-child").forEach(el => el.remove());
         setupLinks(container);
     }
-    onPageLoad(createFeed);
+    //onPageLoad(createFeed);
 </script>
 
 <style>
